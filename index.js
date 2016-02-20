@@ -10,9 +10,9 @@ module.exports = function(pkg, cb){
   return new Promise(function (fulfill, reject) {
     http.get(options, (res) => {
       if (res.statusCode - 200 < 100) {
-        fulfill(true)
+        fulfill(true);
       } 
-      reject(false)
+      fulfill(false);
     });
   })
 };

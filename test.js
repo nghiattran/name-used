@@ -11,20 +11,12 @@ describe('test', function(){
         assert.equal(res, true);
         done();
       })
-      .catch(function (err) {
-        assert(false);
-        done();
-      })
   });
 
   it('test non-exist package', function(done) {
     nameUsed('dasjdjshdjas')
       .then(function (res) {
-        assert(false);
-        done();
-      })
-      .catch(function (err) {
-        assert.equal(err, false);
+        assert.equal(res, false);
         done();
       })
   });

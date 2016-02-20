@@ -2,6 +2,20 @@
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
+## Usage
+
+```js
+var nameUsed = require('./');
+
+var aName = 'npm';
+
+nameUsed(aName)
+  .then(function (res) {
+    // return true if name has been used, false if not
+  })
+```
+
+
 ## Getting To Know Yeoman
 
 Yeoman has a heart of gold. He&#39;s a person with feelings and opinions, but he&#39;s very easy to work with. If you think he&#39;s too opinionated, he can be easily convinced. Feel free to [learn more about him](http://yeoman.io/).
