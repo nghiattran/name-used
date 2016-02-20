@@ -16,4 +16,4 @@ MIT © [NghiaTTran]()
 [daviddm-image]: https://david-dm.org/nghiattran/name-used.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/nghiattran/name-used
 [coveralls-image]: https://coveralls.io/repos/nghiattran/name-used/badge.svg
-[coveralls-url]: https://coveralls.io/r/nghiattran/name-used
+[coveralls-url]: https://coveralls.io/github/nghiattran/name-used
